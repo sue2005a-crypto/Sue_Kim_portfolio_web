@@ -3,28 +3,28 @@
    ============================================================ */
 :root {
   /* Colors */
-  --color-primary: #3730a3;        /* Deep indigo */
-  --color-primary-dark: #312e81;   /* Darker indigo */
-  --color-primary-light: #4f46e5;  /* Indigo */
-  --color-accent: #6366f1;         /* Accent indigo */
-  --color-accent-light: #818cf8;   /* Lighter accent */
+  --primary: #0047AB;              /* Cobalt Blue */
+  --primary-dark: #003380;
+  --primary-light: #3D7DFF;
+  --accent: #5B8CFF;
+  --color-accent-light: #A9C4FF;
 
   /* Background colors */
   --color-bg: #ffffff;
-  --color-bg-secondary: #f5f7ff;
-  --color-bg-tertiary: #eef2ff;
+  --color-bg-secondary: #F1F5FF;
+  --color-bg-tertiary: #E7EEFF;
   --color-bg-card: #ffffff;
   --color-bg-nav: rgba(255, 255, 255, 0.97);
 
   /* Text colors */
-  --color-text: #0f172a;
-  --color-text-secondary: #475569;
-  --color-text-muted: #94a3b8;
-  --color-text-light: #ffffff;
+  --color-text: #111827;
+  --color-text-secondary: #4B5563;
+  --color-text-muted: #6B7280;
+  --color-text-light: #FFFFFF;
 
   /* Border */
-  --color-border: #e2e8f0;
-  --color-border-focus: #4f46e5;
+  --color-border: #D6E4FF;
+  --color-border-light: #E8F0FF;
 
   /* Shadows */
   --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
