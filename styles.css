@@ -3,28 +3,29 @@
    ============================================================ */
 :root {
   /* Colors */
-  --primary: #0047AB;              /* Cobalt Blue */
-  --primary-dark: #003380;
-  --primary-light: #3D7DFF;
-  --accent: #5B8CFF;
-  --color-accent-light: #A9C4FF;
+  --color-primary: #0047AB;        /* Cobalt Blue */
+  --color-primary-dark: #003380;   /* Darker cobalt */
+  --color-primary-light: #3D7DFF;  /* Lighter cobalt */
+  --color-accent: #5B8CFF;         /* Accent blue */
+  --color-accent-light: #A9C4FF;   /* Light accent */
 
   /* Background colors */
   --color-bg: #ffffff;
-  --color-bg-secondary: #F1F5FF;
-  --color-bg-tertiary: #E7EEFF;
+  --color-bg-secondary: #f8fafc;
+  --color-bg-tertiary: #eef4ff;
   --color-bg-card: #ffffff;
   --color-bg-nav: rgba(255, 255, 255, 0.97);
 
   /* Text colors */
-  --color-text: #111827;
-  --color-text-secondary: #4B5563;
-  --color-text-muted: #6B7280;
-  --color-text-light: #FFFFFF;
+  --color-text: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94a3b8;
+  --color-text-light: #ffffff;
 
   /* Border */
-  --color-border: #D6E4FF;
-  --color-border-light: #E8F0FF;
+  --color-border: #e2e8f0;
+  --color-border-focus: #3D7DFF;
+}
 
   /* Shadows */
   --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -784,7 +785,7 @@ p {
 .skill-card__icon {
   width: 44px;
   height: 44px;
-  background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+  background: linear-gradient(135deg, #edf4ff, #dbe8ff);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
@@ -810,17 +811,17 @@ p {
   display: inline-flex;
   align-items: center;
   padding: 0.3rem 0.75rem;
-  background: #eef2ff;
-  color: #3730a3;
+  background: #edf4ff;
+  color: #003380;
   font-size: 0.8125rem;
   font-weight: 500;
   border-radius: var(--radius-full);
-  border: 1px solid #c7d2fe;
+  border: 1px solid #b8d2ff;
   transition: background-color var(--transition), color var(--transition);
 }
 
 .skill-tag:hover {
-  background: #e0e7ff;
+  background: #dbeafe;
 }
 
 /* ============================================================
@@ -855,7 +856,7 @@ p {
 .project-card__img-wrap {
   position: relative;
   aspect-ratio: 16 / 8;
-  background: linear-gradient(135deg, #3730a3 0%, #4f46e5 100%);
+  background: linear-gradient(135deg, #003380 0%, #0047AB 100%);
   overflow: hidden;
 }
 
@@ -871,8 +872,8 @@ p {
   display: none;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #3730a3 0%, #4f46e5 100%);
-  color: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(135deg, #003380 0%, #0047AB 100%);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 .project-card__body {
