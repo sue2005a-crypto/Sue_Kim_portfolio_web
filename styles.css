@@ -1070,8 +1070,8 @@ p {
 
 .modal-tag {
   padding: 0.3rem 0.75rem;
-  background: #eef2ff;
-  color: #3730a3;
+  background: ##eef4ff;
+  color: var(--color-primary-dark);
   font-size: 0.8125rem;
   font-weight: 500;
   border-radius: var(--radius-full);
@@ -1227,10 +1227,6 @@ p {
   flex: 1;
 }
 
-.cert-btn {
-  margin-top: 0.5rem;
-  align-self: flex-start;
-}
 
 .cert-badge-label {
   display: inline-block;
@@ -1314,7 +1310,7 @@ p {
 
 .contact-layout {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -1617,10 +1613,23 @@ p {
     grid-template-columns: 1fr;
   }
 
-  .form-row {
+ .contact-info__card {
+    padding: 2rem 1.25rem;
+  }
+
+  .contact-methods {
     grid-template-columns: 1fr;
   }
 
+  .contact-method {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .contact-method__detail {
+    align-items: flex-start;
+  }
+   
   .modal-body {
     padding: 1.5rem;
   }
