@@ -1316,12 +1316,12 @@ p {
 
 .contact-info {
   width: 100%;
-  max-width: 760px;
+  max-width: none;
 }
 
 .contact-info__card {
   width: 100%;
-  background: var(--color-primary-light);
+  background: var(--color-primary-dark);
   border-radius: var(--radius-xl);
   padding: 3rem;
   color: #fff;
@@ -1397,7 +1397,7 @@ p {
    FOOTER
    ============================================================ */
 .site-footer {
-  background: var(--color-primary-light);
+  background: var(--color-primary-dark);
   color: rgba(255, 255, 255, 0.8);
   padding: 3rem 0 1.75rem;
 }
