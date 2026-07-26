@@ -293,129 +293,218 @@
       </div>
     </section>
 
-    <!-- ============================================================
-         PROJECTS SECTION
-         ============================================================ -->
-    <section id="projects" class="section projects" aria-labelledby="projects-heading">
-      <div class="container">
-        <div class="section-label reveal">Featured Projects</div>
-        <h2 id="projects-heading" class="section-title reveal">Things I've Built</h2>
-        <p class="section-intro reveal">These projects demonstrate my experience with database systems, web technologies, usability evaluation, teamwork, and technical problem-solving.</p>
+<!-- ============================================================
+     PROJECTS SECTION
+     ============================================================ -->
+<section
+  id="projects"
+  class="section projects"
+  aria-labelledby="projects-heading"
+>
+  <div class="container">
 
-        <div class="projects-grid">
+    <div class="section-label reveal">
+      Featured Projects
+    </div>
 
-          <!-- Project 1: SQL -->
-          <article class="project-card reveal" aria-labelledby="proj1-title">
-            <div class="project-card__img-wrap">
-              <img
-                src="assets/images/sql-project.svg"
-                alt="SQL Database Management Project — visualization of database tables and relationships"
-                class="project-card__img"
-                width="480"
-                height="240"
-                loading="lazy"
-                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-              />
-              <div class="project-card__img-fallback" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
-              </div>
-            </div>
-            <div class="project-card__body">
-              <span class="project-card__category">Database Systems</span>
-              <h3 id="proj1-title" class="project-card__title">SQL Database Management Project</h3>
-              <p class="project-card__desc">Designed and managed relational databases using SQL Server. Created tables, primary and composite keys, constraints, queries, views, stored procedures, and functions while applying database normalization concepts.</p>
-              <ul class="project-tech-list" role="list" aria-label="Technologies used">
-                <li class="project-tech">SQL</li>
-                <li class="project-tech">SQL Server</li>
-                <li class="project-tech">Relational Database Design</li>
-              </ul>
-              <button
-                class="btn btn--outline project-btn"
-                data-modal="modal-sql"
-                aria-haspopup="dialog"
-                aria-label="View details for SQL Database Management Project"
-              >
-                View Project Details
-              </button>
-            </div>
-          </article>
+    <h2 id="projects-heading" class="section-title reveal">
+      Things I’ve Built
+    </h2>
 
-          <!-- Project 2: Web -->
-          <article class="project-card reveal" aria-labelledby="proj2-title">
-            <div class="project-card__img-wrap">
-              <img
-                src="assets/images/web-project.svg"
-                alt="Web Design and Programming Project — example of responsive web layout"
-                class="project-card__img"
-                width="480"
-                height="240"
-                loading="lazy"
-                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-              />
-              <div class="project-card__img-fallback" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-              </div>
-            </div>
-            <div class="project-card__body">
-              <span class="project-card__category">Web Technologies</span>
-              <h3 id="proj2-title" class="project-card__title">Web Design and Programming Project</h3>
-              <p class="project-card__desc">Developed a responsive website using semantic HTML5, CSS3, JavaScript, and modern front-end design techniques. Organized content, created responsive layouts, and implemented interactive features.</p>
-              <ul class="project-tech-list" role="list" aria-label="Technologies used">
-                <li class="project-tech">HTML5</li>
-                <li class="project-tech">CSS3</li>
-                <li class="project-tech">JavaScript</li>
-                <li class="project-tech">Tailwind CSS</li>
-              </ul>
-              <button
-                class="btn btn--outline project-btn"
-                data-modal="modal-web"
-                aria-haspopup="dialog"
-                aria-label="View details for Web Design and Programming Project"
-              >
-                View Project Details
-              </button>
-            </div>
-          </article>
+    <p class="section-intro reveal">
+      These projects demonstrate my experience with database systems,
+      web technologies, usability evaluation, teamwork, and technical
+      problem-solving.
+    </p>
 
-          <!-- Project 3: HCI -->
-          <article class="project-card reveal" aria-labelledby="proj3-title">
-            <div class="project-card__img-wrap">
-              <img
-                src="assets/images/hci-project.svg"
-                alt="Human-Computer Interaction Project — usability evaluation and user research"
-                class="project-card__img"
-                width="480"
-                height="240"
-                loading="lazy"
-                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-              />
-              <div class="project-card__img-fallback" aria-hidden="true">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-              </div>
-            </div>
-            <div class="project-card__body">
-              <span class="project-card__category">User Experience</span>
-              <h3 id="proj3-title" class="project-card__title">Human-Computer Interaction Project</h3>
-              <p class="project-card__desc">Worked with team members to evaluate software usability, collect user feedback, identify usability problems, analyze findings, and propose design improvements.</p>
-              <ul class="project-tech-list" role="list" aria-label="Methods used">
-                <li class="project-tech">Usability Testing</li>
-                <li class="project-tech">User Interviews</li>
-                <li class="project-tech">Data Analysis</li>
-              </ul>
-              <button
-                class="btn btn--outline project-btn"
-                data-modal="modal-hci"
-                aria-haspopup="dialog"
-                aria-label="View details for Human-Computer Interaction Project"
-              >
-                View Project Details
-              </button>
-            </div>
-          </article>
+    <div class="projects-grid">
+
+      <!-- ========================================================
+           PROJECT 1: SQL DATABASE
+           ======================================================== -->
+      <article
+        class="project-card reveal"
+        aria-labelledby="project-sql-title"
+      >
+
+        <div class="project-card__image-wrapper">
+          <img
+            src="assets/images/sql-project.jpg"
+            alt="SQL Database Management Project showing database systems and connected data"
+            class="project-card__image"
+            loading="lazy"
+          >
+
+          <span class="project-card__image-label">
+            Database Systems
+          </span>
+        </div>
+
+        <div class="project-card__content">
+
+          <h3
+            id="project-sql-title"
+            class="project-card__title"
+          >
+            SQL Database Management Project
+          </h3>
+
+          <ul
+            class="project-tech-list"
+            role="list"
+            aria-label="SQL project technologies"
+          >
+            <li class="project-tech">SQL</li>
+            <li class="project-tech">SQL Server</li>
+            <li class="project-tech">Database Design</li>
+          </ul>
+
+          <p class="project-card__desc">
+            Designed database tables and created queries, views, stored
+            procedures, and functions while applying relational database
+            concepts and normalization principles.
+          </p>
+
+          <button
+            type="button"
+            class="project-card__link"
+            data-modal="modal-sql"
+            aria-haspopup="dialog"
+            aria-label="View details for the SQL Database Management Project"
+          >
+            View Details
+            <span aria-hidden="true">↗</span>
+          </button>
 
         </div>
-      </div>
-    </section>
+      </article>
+
+
+      <!-- ========================================================
+           PROJECT 2: WEB DESIGN
+           ======================================================== -->
+      <article
+        class="project-card reveal"
+        aria-labelledby="project-web-title"
+      >
+
+        <div class="project-card__image-wrapper">
+          <img
+            src="assets/images/web-project.jpg"
+            alt="Web Design and Programming Project showing a modern responsive website design"
+            class="project-card__image"
+            loading="lazy"
+          >
+
+          <span class="project-card__image-label">
+            Front-End Development
+          </span>
+        </div>
+
+        <div class="project-card__content">
+
+          <h3
+            id="project-web-title"
+            class="project-card__title"
+          >
+            Web Design and Programming Project
+          </h3>
+
+          <ul
+            class="project-tech-list"
+            role="list"
+            aria-label="Web project technologies"
+          >
+            <li class="project-tech">HTML5</li>
+            <li class="project-tech">CSS3</li>
+            <li class="project-tech">JavaScript</li>
+            <li class="project-tech">Tailwind CSS</li>
+          </ul>
+
+          <p class="project-card__desc">
+            Built and styled responsive web pages, implemented interactive
+            features, and organized content using modern web development
+            practices.
+          </p>
+
+          <button
+            type="button"
+            class="project-card__link"
+            data-modal="modal-web"
+            aria-haspopup="dialog"
+            aria-label="View details for the Web Design and Programming Project"
+          >
+            View Details
+            <span aria-hidden="true">↗</span>
+          </button>
+
+        </div>
+      </article>
+
+
+      <!-- ========================================================
+           PROJECT 3: HCI
+           ======================================================== -->
+      <article
+        class="project-card reveal"
+        aria-labelledby="project-hci-title"
+      >
+
+        <div class="project-card__image-wrapper">
+          <img
+            src="assets/images/hci-project.jpg"
+            alt="Human-Computer Interaction Project representing usability and user-centered design"
+            class="project-card__image"
+            loading="lazy"
+          >
+
+          <span class="project-card__image-label">
+            Usability &amp; UCD
+          </span>
+        </div>
+
+        <div class="project-card__content">
+
+          <h3
+            id="project-hci-title"
+            class="project-card__title"
+          >
+            Human-Computer Interaction (HCI) Project
+          </h3>
+
+          <ul
+            class="project-tech-list"
+            role="list"
+            aria-label="HCI project methods"
+          >
+            <li class="project-tech">Usability Testing</li>
+            <li class="project-tech">User Interviews</li>
+            <li class="project-tech">Data Analysis</li>
+          </ul>
+
+          <p class="project-card__desc">
+            Collected user feedback, identified usability issues,
+            collaborated with team members, and proposed interface
+            improvements.
+          </p>
+
+          <button
+            type="button"
+            class="project-card__link"
+            data-modal="modal-hci"
+            aria-haspopup="dialog"
+            aria-label="View details for the Human-Computer Interaction Project"
+          >
+            View Details
+            <span aria-hidden="true">↗</span>
+          </button>
+
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
 
     <!-- ============================================================
          CERTIFICATIONS SECTION
